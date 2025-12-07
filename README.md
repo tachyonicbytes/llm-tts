@@ -40,7 +40,7 @@ If you want the chat model to be able to pass instructions along to the tts mode
 ```bash
 llm --schema "text: Text to speak, instructions: How to speak the given text" --save tts
 llm -t tts "A lovely poem" | llm tts --json
-
+```
 
 ## Supported TTS back-ends
 
@@ -102,5 +102,4 @@ You can also skip playback and write the result to a file instead:
 
 ```bash
 llm tts --output-file out.mp3 "Save to disk instead of playing"
-```
 ```
